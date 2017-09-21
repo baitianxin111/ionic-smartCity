@@ -1,10 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<ion-view>
+  <ion-content ng-controller="loginCtrl" class="calm-bg" overflow-scroll="true">
+    <div class="login-content" >
+      <div class="login-icon">
 
-</body>
-</html>
+      </div>
+      <div class="login-form">
+        <form name="login" novalidate="false">
+          <div class="list" style="margin-bottom: 10px;">
+            <label class="item item-input"
+                   style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+              <span class="input-label" style="width: 45px;text-align: center"><img src="img/lguser.png" style="vertical-align: middle;width: 20px;height: auto;" alt=""></span>
+              <input type="text" class="lginput" ng-model="model.username"  placeholder="用户名" required/>
+            </label>
+            <label class="item item-input"
+                   style="border: none;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;">
+              <span class="input-label" style="width: 45px;text-align: center;padding: 4px 10px 4px 0;"><img src="img/lgpwd.png" style="vertical-align: middle;width: 20px;height: auto;" alt=""></span>
+              <input type="password" class="lginput" ng-model="model.password"  placeholder="密码" required/>
+            </label>
+            <div class="item item-error">
+              <span ng-if="model.error!=''">{{model.error}}</span>
+            </div>
+            <div class="item item-submit" style="margin: 10px 0;height: auto;background-color: #fff;border-radius: 5px;">
+              <button  ng-disabled="!login.$valid" ng-click="check()"
+                       class="button button-block" style="background-color: #75C1FF;margin: 0px;border-radius: 5px;color: #fff;">
+                登录
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

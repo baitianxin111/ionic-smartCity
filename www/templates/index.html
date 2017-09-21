@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+ <ion-view ng-controler="indexCtrl" can-swipe-back="false" cache-view="true">
+   <ion-nav-view>
 
-</body>
-</html>
+   </ion-nav-view>
+   <div class=" tabs  tabs-light ">
+     <a class=" tab-item tab-item-calm" href="" ng-click="goShebei()" ng-class="{true:'active'}[appPage.state=='shebei']">
+       <i class="icon "></i>设备</a>
+     <a class=" tab-item tab-item-calm" href="" ng-click="goMenjin()" ng-class="{true:'active'}[appPage.state=='menjin']">
+       <i class="icon "></i>门禁</a>
+     <a class=" tab-item tab-item-calm" href="" ng-click="goKaoqin()" ng-class="{true:'active'}[appPage.state=='kaoqin']">
+       <i class="icon "></i>考勤</a>
+   </div>
+ </ion-view>
