@@ -1,10 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<ion-view ng-controller="settingCtrl">
+  <ion-header-bar class="bar bar-calm">
+    <div class="buttons">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios-arrow-back"></i>
+      </button>
+    </div>
+    <div class="title">
+      设置
+    </div>
+    <div class="buttons">
 
-</body>
-</html>
+    </div>
+  </ion-header-bar>
+  <ion-content overflow-scroll="true">
+    <div style="height: calc(100% - 80px);">
+      <div class="list">
+        <div class="item">
+          <div style="width: 100%;padding: 5px 55px 5px 10px;height: 32px;line-height: 20px;position: relative;">
+            摇一摇
+            <span style="float: right;font-size: 13px;color:#ccc;">A楼10层左大门</span>
+            <button class="button button-small button-calm button-outline edit-button">更改</button>
+          </div>
+        </div>
+        <div class="item" ui-sref="password" nav-direction="forward">
+          <div style="width: 100%;padding: 5px 10px;height: 32px;">
+            修改密码
+            <i class="icon ion-ios-arrow-right" style="float: right;font-size: 25px;"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div style="width: 100%;padding: 5px 10px;height: 32px;">
+            意见反馈
+            <i class="icon ion-ios-arrow-right" style="float: right;font-size: 25px;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="height: 44px;width: 100%;">
+      <button class="button button-block"
+              style="border-radius: 0;background-color: #FCECEC;border: none;outline: none;color: #ef473a;">
+        注销
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

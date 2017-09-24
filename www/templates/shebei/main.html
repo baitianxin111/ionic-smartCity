@@ -1,10 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-33
-</body>
-</html>
+<ion-header-bar class="bar bar-calm bar-nobottom">
+  <div class="buttons">
+    <button class="button button-clear " ui-sref="setting" nav-direction="forward">
+      <i class="icon my-icon-config"></i>
+    </button>
+  </div>
+  <div class="title" ng-click="changePosition($event)">
+    {{model.position.name}}
+    <button class="title-btn"><i class="icon ion-chevron-down"></i></button>
+  </div>
+  <div class="buttons">
+    <button ui-sref="index.allSb" nav-direction="forward" class="button button-clear ">
+      <i class="icon my-icon-menu"></i>
+    </button>
+  </div>
+</ion-header-bar>
+<ion-content class="has-tabs" overflow-scroll="true">
+  <div class="calm-bg" style="height: 100px;overflow: auto;padding: 10px 25px;">
+    <div style="height: 100%;min-width: 361px;" ng-style="topStyle">
+      <div class="msBtn" ng-click="changeMs({},'上班')" ng-class="{true:'active'}[model.pattern.name=='上班']">
+        <div class="shangban"></div>
+        <div class="msStatus">
+          <p>上班</p>
+          <span ng-if="model.pattern.isOpen">启用中</span>
+        </div>
+      </div>
+      <div class="msBtn" ng-click="changeMs({},'午休')" ng-class="{true:'active'}[model.pattern.name=='午休']">
+        <div class="wuxiu"></div>
+        <div class="msStatus">
+          <p>午休</p>
+          <span ng-if="model.pattern.isOpen">启用中</span>
+        </div>
+      </div>
+      <div class="msBtn" ng-click="changeMs({},'下班')" ng-class="{true:'active'}[model.pattern.name=='下班']">
+        <div class="xiaban"></div>
+        <div class="msStatus">
+          <p>下班</p>
+          <span ng-if="model.pattern.isOpen">启用中</span>
+        </div>
+      </div>
+      <div class="msBtn" ng-click="changeMs(item,'自定义')" ng-repeat="item in msList track by $index"
+           ng-class="{true:'active'}[model.pattern.name==item.name]">
+        <div class="zidingyi"></div>
+        <div class="msStatus">
+          <p>{{item.name}}</p>
+          <span ng-if="model.pattern.isOpen">启用中</span>
+        </div>
+      </div>
+      <div class="msBtn" ng-click="addMs()">
+        <div class="addBtn"></div>
+        <div class="msStatus">
+          <p>添加</p>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+  <div class="width-100 white-bg" style="padding: 10px 20px;">
+    <div style="height: 20px;">
+      <div style="float: left;border-left: 10px solid #FF7777;height: 20px;line-height: 20px;padding-left: 8px;">
+        {{model.pattern.name}}
+      </div>
+      <div style="float: right;width: auto;height: 20px;padding: 2px 0 0 0;">
+        <ion-checkbox style="padding:1px 0 1px 35px;border: none;font-size: 12px;">记忆模式</ion-checkbox>
+      </div>
+    </div>
+  </div>
+  <div class="width-100 white-bg" style="padding: 0 20px;min-height: 271px;height: calc(100% - 190px);">
+    <div class="card model-type row dengguan-block" ng-class="{true:'active'}[model.isOpen]">
+      <div class="col-40 left-icon icon-dengguan"></div>
+      <div class="col-60 right-content">
+        <table style="height: 100%;width: 100%;">
+          <tr>
+            <td>灯光</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-size: 11px;">共</span>
+              <span class="sb-num" style="font-size: 18px;">9</span>
+              <span style="font-size: 11px;">组</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="card model-type row kongtiao-block" ng-class="{true:'active'}[model.isOpen]">
+      <div class="col-40 left-icon icon-kongtiao "></div>
+      <div class="col-60 right-content">
+        <table style="height: 100%;width: 100%;">
+          <tr>
+            <td>空调</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-size: 11px;">共</span>
+              <span class="sb-num" style="font-size: 18px;">9</span>
+              <span style="font-size: 11px;">组</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="card model-type row chuanglian-block" ng-class="{true:'active'}[model.isOpen]" style="margin-bottom:0; ">
+      <div class="col-40 left-icon icon-chuanglian " ></div>
+      <div class="col-60 right-content">
+        <table style="height: 100%;width: 100%;">
+          <tr>
+            <td>窗帘</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-size: 11px;">共</span>
+              <span class="sb-num" style="font-size: 18px;">9</span>
+              <span style="font-size: 11px;">组</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="width-100" style="text-align: center;height: 35px;">
+    <div class="height-100" style="width: calc(50% - 30px);display: inline-block;float: left;text-align: right;line-height: 35px;">
+      关
+    </div>
+    <div style="width:60px;height: auto;display: inline-block;float: left;">
+      <label class="toggle toggle-calm" style="margin: -1px;">
+        <input ng-model="model.pattern.isOpen" ng-change="openModel()" type="checkbox">
+        <div class="track">
+          <div class="handle"></div>
+        </div>
+      </label>
+    </div>
+    <div class="height-100 calm" style="width: calc(50% - 31px);display: inline-block;float: left;text-align: left;line-height: 35px;">
+      开
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+</ion-content>
+<style>
+  .clearfix:after {
+
+    content: ".";
+
+    display: block;
+
+    height: 0;
+
+    clear: both;
+
+    visibility: hidden;
+
+  }
+</style>

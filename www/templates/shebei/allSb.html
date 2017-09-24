@@ -1,0 +1,30 @@
+<ion-view>
+  <ion-header-bar class="bar bar-calm">
+    <div class="buttons">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios-arrow-back"></i>
+      </button>
+    </div>
+    <div class="title">
+      设备
+    </div>
+    <div class="buttons"></div>
+
+  </ion-header-bar>
+  <ion-content class="has-tabs" overflow-scroll="true" >
+    <div class="top-buttons row">
+      <div class="col top-btn" ng-click="changeType('灯光')" ng-class="{true:'active'}[model.type == '灯光']">灯光</div>
+      <div class="col top-btn" ng-click="changeType('空调')" ng-class="{true:'active'}[model.type=='空调']">空调</div>
+      <div class="col top-btn" ng-click="changeType('窗帘')" ng-class="{true:'active'}[model.type=='窗帘']">窗帘</div>
+    </div>
+    <div class="container row" style="height: calc(100% - 44px);">
+      <div class="col-33 padding-0 left-menu hight-100">1</div>
+      <div class="col-67 padding-0 right-menu hight-100" style="overflow: auto">
+        <div class="right-item" ng-click="openDateil(item)" ng-repeat="item in rightList track by 4index">
+
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+

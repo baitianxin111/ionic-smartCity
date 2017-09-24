@@ -1,15 +1,8 @@
  define(['ionic',
-          'asyncLoader',
-          'ngCordova',
-          'cgsDirectives',
-          'positionService',
-          'ngCookies',
-          'css!lib/animate.css/animate.min'
- ],
+          'asyncLoader'],
    function (ionic,asyncLoader) {
-        var app = angular.module('zhly',['ui.router','ionic','ngCordova','cgs.ionic.directive','positionService','ngCookies']);
-        asyncLoader.configure(app);
-        return app;
-
+     var app = angular.module('zhly',['ui.router','ionic']);
+     asyncLoader.configure(app);
+     return app;
    }
  )
