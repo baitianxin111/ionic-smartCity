@@ -18,10 +18,22 @@
       <div class="col top-btn" ng-click="changeType('窗帘')" ng-class="{true:'active'}[model.type=='窗帘']">窗帘</div>
     </div>
     <div class="container row" style="height: calc(100% - 44px);">
-      <div class="col-33 padding-0 left-menu hight-100">1</div>
+      <div class="col-33 padding-0 left-menu hight-100" style="overflow: auto">
+        <div style="height:auto;width: 100%" ng-repeat="item in leftMenu track by $index">
+          <div class="menu-top " ng-click="showTop(item)">
+            {{item.name}}
+            <i style="margin-left: 10px" class="icon calm" ng-class="{false:'ion-chevron-right',true :'ion-chevron-down'}[item.selected]"></i>
+          </div>
+         <div ng-if="item.selected" style="height: auto;width: 100%;">
+           <div class="menu-con" ng-click="showCom(i)" ng-class="{true :'active'}[i.selected]" ng-repeat="i in item.children track by $index">
+             {{i.name}}
+           </div>
+         </div>
+        </div>
+      </div>
       <div class="col-67 padding-0 right-menu hight-100" style="overflow: auto">
-        <div class="right-item" ng-click="openDateil(item)" ng-repeat="item in rightList track by 4index">
-
+        <div class="right-item" ng-click="openDateil(item)" ng-repeat="item in rightList track by $index">
+            {{item.name}}
         </div>
       </div>
     </div>

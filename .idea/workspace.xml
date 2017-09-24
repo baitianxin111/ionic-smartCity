@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a06d50-e27e-4f38-8dc1-478f2eb5cd3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/setting/settingController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/shebei/allSb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ionic.app.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app-config.js" afterPath="$PROJECT_DIR$/www/js/app-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/shebeiController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/shebeiController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/require-config.js" afterPath="$PROJECT_DIR$/www/js/require-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/index.html" afterPath="$PROJECT_DIR$/www/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/kaoqin/main.html" afterPath="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menjin/main.html" afterPath="$PROJECT_DIR$/www/templates/menjin/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/menu.html" afterPath="$PROJECT_DIR$/www/templates/setting/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/shebei/main.html" afterPath="$PROJECT_DIR$/www/templates/shebei/main.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/controllers/appCtroller.js" afterPath="$PROJECT_DIR$/www/js/controllers/appController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/controllers/index/indexControllers.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/indexController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/controllers/loginCtroller.js" afterPath="$PROJECT_DIR$/www/js/controllers/loginController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/route.js" afterPath="$PROJECT_DIR$/www/js/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/shebei/allSb.html" afterPath="$PROJECT_DIR$/www/templates/shebei/allSb.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,34 +67,38 @@
       <file leaf-file-name="shebeiController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/index/shebeiController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
-              <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="38" />
+            <state relative-caret-position="540">
+              <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allSb.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="allSb.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/shebei/allSb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="22" column="104" lean-forward="false" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+            <state relative-caret-position="156">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allSbController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="allSbController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+            <state relative-caret-position="-513">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -150,6 +134,7 @@
       <find>allSb</find>
       <find>changePosition</find>
       <find>newM</find>
+      <find>change</find>
     </findStrings>
     <dirStrings>
       <dir>D:\project\demo\ionic-smartCity\www</dir>
@@ -201,8 +186,8 @@
         <option value="$PROJECT_DIR$/www/js/routes.js" />
         <option value="$PROJECT_DIR$/www/templates/setting/menu.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/setting/settingController.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
         <option value="$PROJECT_DIR$/www/templates/shebei/allSb.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
       </list>
     </option>
   </component>
@@ -246,8 +231,8 @@
     <handled-path value="$PROJECT_DIR$/www/lib/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="478" />
+    <option name="x" value="-76" />
+    <option name="y" value="677" />
     <option name="width" value="1942" />
     <option name="height" value="825" />
   </component>
@@ -732,12 +717,12 @@
       <workItem from="1505975548759" duration="36550000" />
       <workItem from="1506233790758" duration="7702000" />
       <workItem from="1506251722935" duration="2237000" />
-      <workItem from="1506254411311" duration="17000" />
+      <workItem from="1506254411311" duration="2518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71238000" />
+    <option name="totallyTimeSpent" value="73739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,11 +734,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="478" width="1942" height="825" extended-state="0" />
+    <frame x="-76" y="677" width="1942" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19608879" sideWeight="0.5045977" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20454545" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15750529" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24807397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -837,6 +822,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,6 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12402">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,6 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3042">
           <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,6 +889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,6 +1019,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,32 +1092,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/index/shebeiController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="38" />
+        <state relative-caret-position="540">
+          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/shebei/allSb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="104" lean-forward="false" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+        <state relative-caret-position="156">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="51" />
           <folding>
             <element signature="n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
