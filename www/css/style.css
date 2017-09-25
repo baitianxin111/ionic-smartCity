@@ -403,11 +403,12 @@ div.kq-center{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url('../img/mj.png');
+  background-image: url('../img/mj.png') !important;
 }
 
 .left-menu{
   background-color: #F4F4F4;
+  /*padding-top: 45px !important;*/
 }
 .left-menu .menu-top
 {
@@ -435,6 +436,7 @@ div.kq-center{
 }
 .right-menu{
   background-color: #fff;
+  /*margin-top: 45px !important;*/
 }
 button.title-btn{
   background-color: rgba(0,0,0,0);
@@ -491,7 +493,7 @@ button.title-btn{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 30px 30px;
-  background-image: url('../img/men.png');
+  background-image: url('../img/men.png')!important;
   position: relative;
 }
 
@@ -540,7 +542,7 @@ button.title-btn{
   color: #3FA7FB;
 }
 .item-1{
-  background-image: url('../img/men.png');
+  background-image: url('../img/men.png') !important;
   background-size: 25px 25px;
   background-repeat: no-repeat;
   background-position: center center;

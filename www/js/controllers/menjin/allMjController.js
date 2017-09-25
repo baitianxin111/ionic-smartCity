@@ -1,22 +1,18 @@
 define(['app'], function (app) {
   app
-    .controller("allSbCtrl",
-      function ($scope, $rootScope,$state,
-                $timeout, $filter,$ionicViewSwitcher,$ionicPlatform,$stateParams) {
-        // $rootScope.appPage.name='全部设备';
-        // $rootScope.appPage.state='shebei';
+    .controller("allMjCtrl",
+      function ($scope, $rootScope, $interval,$state,
+                $timeout,$filter,$ionicViewSwitcher,$ionicPlatform) {
+        // $rootScope.appPage.name='所有门禁';
+        // $rootScope.appPage.state='menjin';
 
         $scope.goBack=function(){
-          $state.go("index.shebei");
+          $state.go("index.menjin");
           $ionicViewSwitcher.nextDirection("back")
         }
         $ionicPlatform.registerBackButtonAction(function(){
           $scope.goBack();
         },999)
-
-        $scope.model={
-          type:$stateParams.type
-        }
         $scope.leftMenu=[
           {
             name:"一层",
@@ -38,34 +34,18 @@ define(['app'], function (app) {
           },
         ];
         $scope.rightList=[
-          {name:"灯光1"},
-          {name:"灯光2"},
+          {name:"门1"},
+          {name:"门2"},
+          {name:"门3"},
+          {name:"门4"},
+          {name:"门5"},
+          {name:"门6"},
+          {name:"门7"},
+          {name:"门8"},
+          {name:"门9"},
+          {name:"门10"},
+          {name:"门11"},
         ];
-
-        $scope.changeType=function(type){
-          $scope.model.type=type;
-          if(type=='窗帘')
-          {
-            $scope.rightList=[
-              {name:"窗帘1"},
-              {name:"窗帘2"},
-            ];
-          }
-          else if(type=='空调')
-          {
-            $scope.rightList=[
-              {name:"空调1"},
-              {name:"空调2"},
-            ];
-          }
-          else if(type=='灯光')
-          {
-            $scope.rightList=[
-              {name:"灯光1"},
-              {name:"灯光2"},
-            ];
-          }
-        }
         $scope.clearTop=function(){
           for(var i=0;i<$scope.leftMenu.length;i++)
           {
@@ -99,14 +79,14 @@ define(['app'], function (app) {
           {
             item.selected=false;
           }
-          // else
-          // {
-          //   item.selected=true;
-          //   if(helper.isEmpty(item.children))
-          //   {
-          //     $scope.showCom(item.children[0]);
-          //   }
-          // }
+          else
+          {
+            item.selected=true;
+            // if(helper.isEmpty(item.children))
+            // {
+            //   $scope.showCom(item.children[0]);
+            // }
+          }
         }
         $scope.showCom=function(i){
           $scope.clearChildren()
@@ -114,20 +94,5 @@ define(['app'], function (app) {
           //从后台获取该场所的门
         };
         $scope.showTop($scope.leftMenu[0]);
-
-        $scope.openDateil=function(item){
-          if($scope.model.type=='窗帘')
-          {
-            $state.go('index.cl',{id:item.id,name:item.name});
-          }
-          else if($scope.model.type=='灯光')
-          {
-            $state.go('index.dg',{id:item.id,name:item.name});
-          }
-          else if($scope.model.type=='空调')
-          {
-            $state.go('index.kt',{id:item.id,name:item.name});
-          }
-        }
       })
 });

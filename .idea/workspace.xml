@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a06d50-e27e-4f38-8dc1-478f2eb5cd3c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/menjin/addMjController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/menjin/allMjController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/menjin/openController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/clController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/dgController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/ktController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/kaoqin/history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/menjin/addMj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/menjin/allMj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/menjin/open.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/shebei/cl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/shebei/dg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/shebei/kt.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" afterPath="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/routes.js" afterPath="$PROJECT_DIR$/www/js/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/kaoqin/main.html" afterPath="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menjin/main.html" afterPath="$PROJECT_DIR$/www/templates/menjin/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/shebei/allSb.html" afterPath="$PROJECT_DIR$/www/templates/shebei/allSb.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,32 +43,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/shebei/main.html">
+      <file leaf-file-name="clController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/clController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2301">
-              <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+            <state relative-caret-position="156">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allMjController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/menjin/allMjController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding>
+                <element signature="e#540#945#0" expanded="false" />
+                <element signature="e#972#1238#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMj.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/menjin/addMj.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-239">
+              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="n#ion-header-bar#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allMj.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/menjin/allMj.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="49" />
+              <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-checkbox#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#2;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="439" column="1" lean-forward="true" selection-start-line="439" selection-start-column="1" selection-end-line="439" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMjController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/menjin/addMjController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dgController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/dgController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+                <marker date="1506323619878" expanded="true" signature="987:999" ph="..." />
+                <marker date="1506323619878" expanded="true" signature="1042:1060" ph="..." />
+                <marker date="1506323619878" expanded="true" signature="1159:1177" ph="..." />
+                <marker date="1506323619878" expanded="true" signature="1289:1300" ph="..." />
+                <marker date="1506323619878" expanded="true" signature="1727:1740" ph="..." />
               </folding>
             </state>
           </provider>
@@ -55,8 +138,8 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            <state relative-caret-position="262">
+              <caret line="92" column="35" lean-forward="true" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -64,44 +147,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shebeiController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/index/shebeiController.js">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/kaoqin/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allSb.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/shebei/allSb.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="234">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allSbController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js">
+      <file leaf-file-name="kaoqincController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
-              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rootscope</find>
-      <find>A</find>
       <find>ANGU</find>
       <find>ANGULAR</find>
       <find>ANGULAR.M</find>
@@ -135,6 +198,22 @@
       <find>changePosition</find>
       <find>newM</find>
       <find>change</find>
+      <find>openDateil</find>
+      <find>mj-b</find>
+      <find>mj-b</find>
+      <find>mj-p</find>
+      <find>men</find>
+      <find>menjinCtrl</find>
+      <find>index.allMj</find>
+      <find>lu</find>
+      <find>sw</find>
+      <find>helper</find>
+      <find>nowrap</find>
+      <find>has-tabs</find>
+      <find>openDoor</find>
+      <find>left-menu</find>
+      <find>right-menu</find>
+      <find>showCom</find>
     </findStrings>
     <dirStrings>
       <dir>D:\project\demo\ionic-smartCity\www</dir>
@@ -146,12 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/templates/chat-detail.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/www/templates/tab-chats.html" />
-        <option value="$PROJECT_DIR$/www/templates/tab-dash.html" />
-        <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/css/ionic.app.min.css" />
         <option value="$PROJECT_DIR$/www/js/controllers/appCtrloller.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/index/indexCtrollers.js" />
@@ -170,24 +243,39 @@
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/www/js/app-config.js" />
-        <option value="$PROJECT_DIR$/www/templates/menjin/main.html" />
-        <option value="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
         <option value="$PROJECT_DIR$/www/appConfigFile.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/index/indexController.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
         <option value="$PROJECT_DIR$/www/templates/index.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/shebei/allSb.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/setting/menu.html" />
         <option value="$PROJECT_DIR$/www/templates/shebei/main.html" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/controllers/index/shebeiController.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/setting/settingCtrl.js" />
-        <option value="$PROJECT_DIR$/www/js/routes.js" />
         <option value="$PROJECT_DIR$/www/templates/setting/menu.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/setting/settingController.js" />
+        <option value="$PROJECT_DIR$/www/templates/shebei/ct.html" />
         <option value="$PROJECT_DIR$/www/templates/shebei/allSb.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js" />
+        <option value="$PROJECT_DIR$/www/templates/menjin/main.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/index/menjinController.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js" />
+        <option value="$PROJECT_DIR$/www/templates/kaoqin/history.html" />
+        <option value="$PROJECT_DIR$/www/js/routes.js" />
+        <option value="$PROJECT_DIR$/www/templates/shebei/dg.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/shebei/dgController.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/shebei/clController.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/shebei/ktController.js" />
+        <option value="$PROJECT_DIR$/www/templates/shebei/cl.html" />
+        <option value="$PROJECT_DIR$/www/templates/shebei/kt.html" />
+        <option value="$PROJECT_DIR$/www/templates/menjin/addMj.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/menjin/addMjController.js" />
+        <option value="$PROJECT_DIR$/www/templates/menjin/open.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/menjin/openController.js" />
+        <option value="$PROJECT_DIR$/www/templates/menjin/allMj.html" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/js/controllers/menjin/allMjController.js" />
+        <option value="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
       </list>
     </option>
   </component>
@@ -231,10 +319,9 @@
     <handled-path value="$PROJECT_DIR$/www/lib/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
-    <option name="y" value="677" />
-    <option name="width" value="1942" />
-    <option name="height" value="825" />
+    <option name="y" value="429" />
+    <option name="width" value="1920" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -251,6 +338,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,6 +485,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -519,6 +677,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="menjin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaoqin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-smartCity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -543,13 +753,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zhly/smartapp" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -718,11 +927,12 @@
       <workItem from="1506233790758" duration="7702000" />
       <workItem from="1506251722935" duration="2237000" />
       <workItem from="1506254411311" duration="2518000" />
+      <workItem from="1506299200703" duration="30351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73739000" />
+    <option name="totallyTimeSpent" value="104090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,19 +944,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-76" y="677" width="1942" height="825" extended-state="0" />
+    <frame x="0" y="429" width="1920" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19608879" sideWeight="0.5045977" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15750529" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15240642" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24807397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24796748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45762712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -762,17 +972,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24796748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45762712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19608879" sideWeight="0.5045977" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16701902" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22573839" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -788,73 +998,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js" />
-    <entry file="file://$PROJECT_DIR$/www/templates/chat-detail.html" />
-    <entry file="file://$PROJECT_DIR$/platforms/platforms.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js" />
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-account.html" />
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-dash.html" />
-    <entry file="file://$PROJECT_DIR$/www/templates/chat-detail.html" />
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-chats.html" />
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html" />
-    <entry file="file://$PROJECT_DIR$/www/css/ionic.app.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/requirejs/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-async-loader/angular-async-loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="240" column="22" lean-forward="false" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6674">
@@ -935,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/menjinController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/appConfigFile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -960,34 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/require-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/kaoqin/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/menjin/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1015,14 +1123,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSb.html" />
     <entry file="file://$PROJECT_DIR$/www/js/controllers/setting/menu.html" />
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/index/indexController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1049,36 +1149,26 @@
         <state relative-caret-position="2301">
           <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-checkbox#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ion-checkbox#0;n#div#1;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#2;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,39 +1180,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/shebeiController.js">
+    <entry file="file://$PROJECT_DIR$/www/js/require-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="780">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/mj.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/shebei/allSb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="78">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding>
-            <element signature="n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menjin/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#ion-content#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/kaoqin/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/ktController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="4" column="96" lean-forward="false" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/shebei/cl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/shebei/kt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/shebei/dg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="64" column="68" lean-forward="false" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#ion-content#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menjin/open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/allSbController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="969">
+          <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+          <folding>
+            <element signature="e#1042#1101#0" expanded="false" />
+            <element signature="e#1144#1652#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/ionic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="3534" column="23" lean-forward="false" selection-start-line="3534" selection-start-column="15" selection-end-line="3534" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/menjin/openController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/shebeiController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/clController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/shebei/dgController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1506323619878" expanded="true" signature="987:999" ph="..." />
+            <marker date="1506323619878" expanded="true" signature="1042:1060" ph="..." />
+            <marker date="1506323619878" expanded="true" signature="1159:1177" ph="..." />
+            <marker date="1506323619878" expanded="true" signature="1289:1300" ph="..." />
+            <marker date="1506323619878" expanded="true" signature="1727:1740" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/menjinController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/menjin/addMjController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="439" column="1" lean-forward="true" selection-start-line="439" selection-start-column="1" selection-end-line="439" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menjin/addMj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="n#ion-header-bar#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/menjin/allMjController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#540#945#0" expanded="false" />
+            <element signature="e#972#1238#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menjin/allMj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="92" column="35" lean-forward="true" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/kaoqin/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="n#ion-header-bar#0;n#ion-view#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

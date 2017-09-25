@@ -1,0 +1,81 @@
+<ion-header-bar class="bar bar-calm">
+  <div class="buttons">
+    <button class="button button-clear" ng-click="goBack()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </div>
+  <div class="title">
+    {{params.name}}
+  </div>
+  <div class="buttons">
+
+  </div>
+</ion-header-bar>
+<ion-content class="has-tabs" overflow-scroll="true">
+  <div class="top-dg" style="height: 200px;">
+
+  </div>
+  <div class="width-100" style="text-align: center;height: 35px;">
+    <div class="height-100" style="width: calc(50% - 30px);display: inline-block;float: left;text-align: right;line-height: 35px;">
+      关
+    </div>
+    <div style="width:60px;height: auto;display: inline-block;float: left;">
+      <label class="toggle toggle-calm" style="margin: -1px;">
+        <input ng-model="model.isOpen" ng-change="openModel()" type="checkbox">
+        <div class="track">
+          <div class="handle"></div>
+        </div>
+      </label>
+    </div>
+    <div class="height-100 calm" style="width: calc(50% - 31px);display: inline-block;float: left;text-align: left;line-height: 35px;">
+      开
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <div class="width-100" style="height: calc(100% - 250px);margin-top: 10px;min-height: 200px;">
+    <div class="container" style="height: calc(50% - 20px);">
+      <div style="height: 20px;padding: 0 25px;line-height: 20px;font-size: 16px;font-weight: 600;">
+        色温
+      </div>
+      <div class="range">
+        <input type="range" min="0" max="100" ng-change="sw()"
+               ng-model="model.sewen"
+               ion-range range-value="model.sewen" color="#3FA7FB">
+      </div>
+      <div style="height: 15px;padding: 0 25px;line-height: 15px;font-size: 12px;">
+        <span style="float: left;">冷</span>
+        <span style="float: right;">暖</span>
+      </div>
+    </div>
+    <div class="container" style="height: calc(50% - 20px);">
+      <div style="height: 20px;padding: 0 25px;line-height: 20px;font-size: 16px;font-weight: 600;">
+        亮度
+      </div>
+      <div class="range " >
+        <input type="range" min="0" max="100" ng-change="ld()"
+               ng-model="model.liangdu"
+               ion-range range-value="model.liangdu" color="#3FA7FB">
+      </div>
+      <div style="height: 15px;padding: 0 25px;line-height: 15px;font-size: 12px;">
+        <span style="float: left;">暗</span>
+        <span style="float: right;">亮</span>
+      </div>
+    </div>
+    <div class="container" style="height: 40px; text-align: center">
+      <button class="button button-outline button-calm" ng-click="timeout()"
+              style="padding: 0;height: 30px;min-height: 30px;line-height: 28px;margin: 0 auto;">
+        定时
+      </button>
+    </div>
+  </div>
+  <!--<div>-->
+    <!--<button></button>-->
+  <!--</div>-->
+  <!--<div class="row ds">-->
+    <!--<div class="col "><input type="number" min="0" max="24" ng-model="ds.h" ng-change="ds.watch()"></div>-->
+    <!--<div class="col "><input type="number" min="0" max="60" ng-model="ds.m" ng-change="ds.watch()"></div>-->
+    <!--<div class="col "><input type="number" min="0" max="60" ng-model="ds.s" ng-change="ds.watch()"></div>-->
+  <!--</div>-->
+  <!--<div></div>-->
+  <!--<div></div>-->
+</ion-content>

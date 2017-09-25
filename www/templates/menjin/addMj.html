@@ -1,0 +1,56 @@
+<ion-header-bar class="bar bar-calm">
+  <div class="buttons">
+    <button class="button button-clear" ng-click="goBack()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </div>
+  <div class="title">
+    增加/删除门禁
+  </div>
+  <div class="buttons">
+
+  </div>
+</ion-header-bar>
+<ion-content class="has-tabs" overflow-scroll="true">
+  <div class="container padding-10" style="min-height: 200px;height: 30%;">
+    <div class="container" style="height: 20px;line-height: 20px;">
+      已添加门禁
+    </div>
+    <div class="container padding-10" style="height: calc(100% - 21px);overflow: auto;">
+      <div class="mj-add-btn" ng-repeat="item in list track by $index">
+        <div class="mj-add-b add-men" ng-click="deleM(item)">
+          <i class="icon ion-ios-minus"></i>
+        </div>
+        <div class="mj-add-p nowrap">{{item.name}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="height: 70%;min-height: 250px;">
+    <div class="container top-tabs" style="height: 33px;overflow: auto;width: 100%;">
+      <div style="height: 100%;" ng-style="pw">
+        <div class="top-tab nowrap" ng-class="{true:'active'}[item.selected]"  ng-click="showM(item)"
+             ng-repeat="item in placeList track by $index">
+          {{item.name}}
+        </div>
+      </div>
+    </div>
+    <div class="container" style="height: calc(100% - 35px);overflow-y: auto;overflow-x: hidden;">
+      <div class="list">
+        <div class="item" ng-repeat="item in doorList track by $index">
+          <div class="item-1" style="width: 33px;">
+
+          </div>
+          <div class="item-2" style="width: calc(100% - 70px);padding-left: 10px;">
+            {{item.name}}
+          </div>
+          <div class="item-3" ng-click="addM(item)" style="width: auto;float: right">
+            <button class="btn-i">
+              <i class="icon ion-ios-plus-outline"></i>
+            </button>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,38 @@
+<ion-header-bar class="bar bar-calm">
+  <div class="buttons">
+    <button class="button button-clear" ng-click="goBack()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </div>
+  <div class="title">
+    所有门禁
+  </div>
+  <div class="buttons">
+
+  </div>
+</ion-header-bar>
+<ion-content class="has-tabs" overflow-scroll="true">
+  <div class="container row">
+    <div class="col-33 padding-0 left-menu height-100" style="overflow: auto;">
+      <div style="height: auto;width: 100%;" ng-repeat="item in leftMenu track by $index">
+        <div class="menu-top" ng-click="showTop(item)">
+          {{item.name}}
+          <i class="icon calm" ng-class="{false:'ion-chevron-right',true:'ion-chevron-down'}[item.selected]"
+             style="margin-left: 10px;"></i>
+        </div>
+        <div ng-if="item.selected" style="height: auto;width: 100%;">
+          <div class="menu-con" ng-click="showCom(i)" ng-class="{true:'active'}[i.selected]"
+               ng-repeat="i in item.children track by $index">
+          </div>
+          {{i.name}}
+        </div>
+      </div>
+    </div>
+    <div class="col-67 padding-0 right-menu height-100" style="overflow: auto;">
+      <div class="right-item nowrap" ui-sref="index.openDoor({id:item.id,type:'allMj'})"
+           ng-repeat="item in rightList track by $index" nav-direction="forward">
+        {{item.name}}
+      </div>
+    </div>
+  </div>
+</ion-content>

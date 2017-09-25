@@ -1,5 +1,25 @@
-<ion-view>
-  <ion-content>
-    menjin
-  </ion-content>
-</ion-view>
+<ion-header-bar class="bar bar-calm">
+  <div class="buttons">
+
+  </div>
+  <div class="title">
+    门禁
+  </div>
+  <div class="buttons" ng-click="allMJ()">
+    <button class="button button-clear ">
+      <i class="icon my-icon-menu"></i>
+    </button>
+  </div>
+</ion-header-bar>
+<ion-content overflow-scroll="true" class="has-tabs" style="padding: 30px 15px 15px 15px;">
+  <div class="mj-btn" ng-repeat="item in list track by $index">
+    <div class="mj-b men" ui-sref="index.openDoor({type:'menjin',id:item.id})" nav-direction="forward"></div>
+    <div class="mj-p nowrap"> {{item.name}}</div>
+  </div>
+  <div class="mj-btn" ui-sref="index.addMj" nav-direction="forward">
+    <div class="mj-b">
+      <i class="icon ion-ios-plus-empty"></i>
+    </div>
+    <div class="mj-p nowrap">添加</div>
+  </div>
+</ion-content>

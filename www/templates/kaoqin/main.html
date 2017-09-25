@@ -1,3 +1,44 @@
 <ion-view>
-  <ion-content>kaoqin</ion-content>
+  <ion-header-bar class="bar bar-calm">
+    <div class="buttons" ng-clcik="goBack()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </div>
+    <div class="title">
+      考勤
+    </div>
+    <div class="buttons"></div>
+  </ion-header-bar>
+  <ion-content>
+  <div style="hight:100%;min-height: 450px;">
+     <div class="width-100">
+       <table class="kaoqin-table">
+         <tr>
+           <td>
+             工作时长
+             {{nowTime |date :' HH:mm:ss'}}
+           </td>
+         </tr>
+         <tr>
+           <td><span></span>已工作时长</td>
+         </tr>
+       </table>
+     </div>
+    <div class="width-100">
+      <div class="kaoqin-button">
+        <span ng-if="model.isWork">打卡上班</span>
+        <span ng-if="!model.isWork">打卡下班</span>
+      </div>
+      <div class="area-in" ng-if="model.isInArea">已在范围内</div>
+      <div class="area-out" ng-if="!model.isInArea">不在范围内</div>
+    </div>
+    <div class="width-100" style="height: auto;">
+      <div class="calm" ui-sref="index.kqHistory" nav-direction="forward"
+           style="width: 85px;margin:0 auto;height: 35px;line-height: 35px;
+                 font-size: 16px;position: relative;">
+        我的记录
+        <i class="icon ion-ios-arrow-forward" style="font-size: 25px;position: absolute;right: 5px;top: 0.5px;"></i>
+      </div>
+    </div>
+  </div>
+  </ion-content>
 </ion-view>
