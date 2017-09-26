@@ -12,15 +12,22 @@ define(['app'],function (app) {
         isWork  : false,
         startTime : new Date($filter('date')(new Date(),'yyyy-MM-dd'))
       }
+      $scope.timer = $interval(function () {
+        $scope.nowTime = new Date();
+        if(window.$$appConfig.appType == 'release'){
+
+        }
+      },999)
       if(window.$$appConfig.appType == 'relaese'){
         {
           window.WifiWizard.setWifiEnabled(true,function (data) {
             console.log(data);
-
           })
         }
-
       }
+      // $scope.on('$destory',function () {
+      //   $interval.cancel($scope,timer)
+      // })
 
   })
 
