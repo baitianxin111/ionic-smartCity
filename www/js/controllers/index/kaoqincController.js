@@ -7,15 +7,26 @@ define(['app'],function (app) {
   //  设定初始值
       $scope.nowTime = new Date();
       $scope.model = {
-          accessWifi:["\"suc\"","\"suc-11\""],
+        accessWifi:["\"suc\"","\"suc-11\""],
         isInArea : false,
         isWork  : false,
         startTime : new Date($filter('date')(new Date(),'yyyy-MM-dd'))
       }
+      //定时判断是否在wifi区域内
       $scope.timer = $interval(function () {
         $scope.nowTime = new Date();
         if(window.$$appConfig.appType == 'release'){
+            window.WifiWizard.getCurrentSSID(function (data) {
+              if($scope.model.accessWifi.indexOf(data) > 0){
+                $scope.model.isInArea = true ;
 
+              }
+              else {
+                $scope.model.isInArea = false ;
+              }
+            },function () {
+              $scope.model.isInArea = false ;
+            })
         }
       },999)
       if(window.$$appConfig.appType == 'relaese'){
@@ -25,6 +36,7 @@ define(['app'],function (app) {
           })
         }
       }
+      //注入位置服务，进行定位上班打卡，
       // $scope.on('$destory',function () {
       //   $interval.cancel($scope,timer)
       // })

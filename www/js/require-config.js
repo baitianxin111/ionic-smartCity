@@ -15,6 +15,8 @@ require.config({
     'zepto': 'lib/zepto/zepto.min',
     'asyncLoader': 'lib/angular-async-loader/angular-async-loader',
     'appCtrl':'js/controllers/appController',
+    'cgsDirectives':'js/directive/cgs-ionic-directive',
+    'positionService' :'js/directive/positionService'
   },
   shim: {
     'ionic': {
@@ -32,6 +34,12 @@ require.config({
     'appCtrl': {
       deps: ['ionic','app']
     },
+    'cgsDirectives': {
+      deps:['ionic','ngCordova','zepto']
+    },
+    'positionService': {
+      deps :['ionic']
+    }
   },
   deps: [
     'bootstrap'

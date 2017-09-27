@@ -10,7 +10,7 @@
   </ion-header-bar>
   <ion-content>
   <div style="hight:100%;min-height: 450px;">
-     <div class="width-100">
+     <div class="width-100" style="height:calc(50% - 37px)">
        <table class="kaoqin-table">
          <tr>
            <td>
@@ -19,12 +19,12 @@
            </td>
          </tr>
          <tr>
-           <td><span></span>已工作时长</td>
+           <td><span ng-if="model.isWork">已工作时长: {{nowTime - model.startTime |date:'HH:mm:ss'}}</span></td>
          </tr>
        </table>
      </div>
-    <div class="width-100">
-      <div class="kaoqin-button">
+    <div class="width-100" style="height: 50%">
+      <div class="kaoqin-button" ng-click="post()" ng-class="{true:'active'}[model.isInArea]">
         <span ng-if="model.isWork">打卡上班</span>
         <span ng-if="!model.isWork">打卡下班</span>
       </div>

@@ -1,4 +1,4 @@
-<ion-view>
+<!--<ion-view>-->
   <ion-header-bar class="bar bar-calm">
     <div class="buttons">
       <button class="buttons button-clear" ng-click="goBack()"></button>
@@ -9,8 +9,48 @@
     </div>
     <div class="buttons"></div>
   </ion-header-bar>
-  <ion-content>
-    ddddd
+  <ion-content class="has-tabs">
+    <div class="width-100" style="height: 44px;padding: 0 17px;">
+      <div style="height: 44px;display: inline-block;float: left;padding-top: 8px;">
+        <button on-tap="toPrevMonth()" class="button button-calm button-icon button-small button-clear">
+          <i class="icon ion-ios-arrow-back" style="font-size: 20px;"></i>
+        </button>
+      </div>
+      <div class="height-100  calendar-select" on-tap="showYear($event)"
+           style="width: calc(50% - 35px);float: left;text-align: right;">
+        {{model.year}}年
+        <i class="icon ion-android-arrow-dropdown" style="font-size: 25px;position: absolute;top:0;right: -10px;"></i>
+      </div>
+      <div style="height: 44px;display: inline-block;float: right;padding-top: 8px;">
+        <button on-tap="toNextMonth()" class="button button-calm button-icon button-small button-clear">
+          <i class="icon ion-ios-arrow-forward" ></i>
+        </button>
+      </div>
+      <div class="height-100  calendar-select" on-tap="showMonth($event)"
+           style="width: calc(50% - 35px);float: right;text-align: left;">
+        {{model.smonth}}月
+        <i class="icon ion-android-arrow-dropdown" style="font-size: 25px;position: absolute;top:0;left:50px;"></i>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+    <div style="padding:0 10px;" cgs-calendar="" month="month" select-day="selectDay"></div>
+    <div class="width-100 intro" style="height: 30px;margin: 0 0 10px 0;line-height: 30px;">
+      <span class="yci"></span><span class="assertive">异常</span>
+      <span class="zci"></span><span class="calm">正常</span>
+    </div>
+    <div class="width-100" ng-show="page.isShow != false" style="padding:  0 28px;height: 85px;">
+      <div class="card" ng-class="" style="margin :0;height: 100%;">
+        <div class="row container">
+          <div class="col-40 height-100 kq-left error">9:11:0</div>
+          <div class="col-20 height-100 kq-center" >
+            <div>10:10:10</div>
+            <div style="height: 30%;border-top:3px solid #222;"></div>
+          </div>
+          <div class="col-40 height-100 kq-right error">未打卡</div>
+        </div>
+      </div>
+    </div>
+
   </ion-content>
-</ion-view>
+<!--</ion-view>-->
 

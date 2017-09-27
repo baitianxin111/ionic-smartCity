@@ -46,35 +46,41 @@ define(['app'],function (app) {
         controller:"settingCtrl",
         controllerUrl:"js/controllers/setting/settingController.js"
       })
-      .state('index.allSb',{
+      .state('password',{ //修改密码
+        url : '/password',
+        templateUrl :'templates/setting/password.html' ,
+        controllerUrl : 'js/controllers/setting/pwdController.js',
+        controller : 'pwdCtrl'
+      })
+      .state('index.allSb',{ //所有设备
         url:"/allSb",
         params: {type : '灯光'},
         templateUrl:"templates/shebei/allSb.html",
         controller:"allSbCtrl",
         controllerUrl:"js/controllers/shebei/allSbController.js"
       })
-      .state('index.dg',{
+      .state('index.dg',{ //灯光
         url : '/dg',
         params :{id :null,name : null},
         templateUrl :"templates/shebei/dg.html",
         controllerUrl :"js/controllers/shebei/dgController.js",
         controller : "dgCtrl"
       })
-      .state('index.kt',{
+      .state('index.kt',{ //空调
         url :'/kt',
         params :{id :null,name : null},
         templateUrl :"templates/shebei/kt.html",
         controllerUrl :"js/controllers/shebei/ktController.js",
         controller : "ktCtrl"
       })
-      .state('index.cl',{
+      .state('index.cl',{ //窗帘
         url : '/cl',
         params :{id :null,name : null},
         templateUrl :"templates/shebei/cl.html",
         controllerUrl :"js/controllers/shebei/clController.js",
         controller : "clCtrl"
       })
-      .state('index.allMj',{ //门禁的
+      .state('index.allMj',{ //所有门禁
       url : '/allMj',
       templateUrl :"templates/menjin/allMj.html",
       controllerUrl :"js/controllers/menjin/allMjController.js",
