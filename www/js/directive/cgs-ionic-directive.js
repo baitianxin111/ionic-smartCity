@@ -121,37 +121,12 @@ angular.module("cgs.ionic.directive", [])
       }
     }
   })
-  // .directive("cgsCalendar",function ($compile,dateObj,$document,$window,$filter) {
+  // .directive('valueRange',function () {
   //   return {
-  //     require : '?ngModel',
-  //     restrict :"A",
-  //     scope : {
-  //       month : "=",
-  //       selectDay :"="
-  //     },
-  //     template :  '<div class="calendar-body-box">'+
-  //     '<table class="calendar-table">'+
-  //     '<tr> <tr>日</tr> <tr>一</tr> <tr>二</tr> <tr>三</tr> <tr>四</tr> <tr>五</tr> <tr>六</tr></tr>'+
-  //     '<tr ng-repeat="week in month">'+
-  //     '<td ng-repeat="day in week" ng-class="{true : \'active\'}[day.selected]" class="{{day.className}}" ng-click="selectDay(day)">'+
-  //     '<p>{{day.day}}</p><span></span>' +
-  //   '</td>'+
-  //   '</tr>'+
-  //   '</table>'+
-  //  ' </div>' ,
-  //     link : function (scope,element,attrs,controller,ngModel) {
-  //       if(typeof  scope.selecDay !== "function"){
-  //         scope.selecDay = function (day) {
-  //           console.log(day);
-  //         }
-  //
-  //       }
-  //     },
-  //     controller: function ($scope,$window,$document,dateObj) {
+  //     scope : '',
+  //     link : function () {
   //
   //     }
-  //
   //   }
-  //
   // })
-  //
+

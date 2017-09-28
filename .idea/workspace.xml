@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a06d50-e27e-4f38-8dc1-478f2eb5cd3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/setting/pwdController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/setting/password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" afterPath="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js" afterPath="$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js" afterPath="$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/directive/positionService.js" afterPath="$PROJECT_DIR$/www/js/directive/positionService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/require-config.js" afterPath="$PROJECT_DIR$/www/js/require-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/routes.js" afterPath="$PROJECT_DIR$/www/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/kaoqin/history.html" afterPath="$PROJECT_DIR$/www/templates/kaoqin/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/kaoqin/main.html" afterPath="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,12 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <file leaf-file-name="kaoqincController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="353" column="6" lean-forward="false" selection-start-line="353" selection-start-column="4" selection-end-line="353" selection-end-column="6" />
+            <state relative-caret-position="64">
+              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cgs-ionic-directive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="130" column="7" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="130" selection-end-column="7" />
+              <folding>
+                <element signature="e#63#1646#0" expanded="false" />
+                <element signature="e#1734#3851#0" expanded="false" />
+                <element signature="e#3939#4860#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="positionService.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="positionService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/directive/positionService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="741">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -143,16 +148,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
               <caret line="6" column="96" lean-forward="false" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/setting/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -253,16 +248,16 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/controllers/menjin/allMjController.js" />
         <option value="$PROJECT_DIR$/www/templates/kaoqin/main.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
-        <option value="$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/kaoqin/historyController.js" />
         <option value="$PROJECT_DIR$/www/templates/kaoqin/history.html" />
         <option value="$PROJECT_DIR$/www/js/routes.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/setting/pwdController.js" />
         <option value="$PROJECT_DIR$/www/templates/setting/password.html" />
-        <option value="$PROJECT_DIR$/www/js/directive/positionService.js" />
         <option value="$PROJECT_DIR$/www/js/require-config.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/directive/positionService.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js" />
+        <option value="$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js" />
       </list>
     </option>
   </component>
@@ -306,9 +301,9 @@
     <handled-path value="$PROJECT_DIR$/www/lib/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-25" />
-    <option name="y" value="248" />
-    <option name="width" value="1942" />
+    <option name="x" value="-24" />
+    <option name="y" value="48" />
+    <option name="width" value="1920" />
     <option name="height" value="934" />
   </component>
   <component name="ProjectView">
@@ -847,12 +842,12 @@
       <workItem from="1506254411311" duration="2518000" />
       <workItem from="1506299200703" duration="31791000" />
       <workItem from="1506385940514" duration="24447000" />
-      <workItem from="1506472355524" duration="7967000" />
+      <workItem from="1506472355524" duration="12692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137944000" />
+    <option name="totallyTimeSpent" value="142669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,11 +859,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-25" y="248" width="1942" height="934" extended-state="0" />
+    <frame x="-24" y="48" width="1920" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19608879" sideWeight="0.5045977" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20243129" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.4954023" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1182,22 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1299,9 +1278,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/directive/positionService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="741">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/index/kaoqincController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/directive/cgs-ionic-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="130" column="7" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="130" selection-end-column="7" />
+          <folding>
+            <element signature="e#63#1646#0" expanded="false" />
+            <element signature="e#1734#3851#0" expanded="false" />
+            <element signature="e#3939#4860#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

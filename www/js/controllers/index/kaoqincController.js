@@ -3,7 +3,7 @@
  */
 define(['app'],function (app) {
   app.controller('kaoqinCtrl',
-    function ($scope,$state,$ionicViewSwitcher,$filter,$rootScope,$interval) {
+    function ($scope,$state,$ionicViewSwitcher,$filter,$rootScope,$interval,positionService) {
   //  设定初始值
       $scope.nowTime = new Date();
       $scope.model = {
@@ -36,7 +36,14 @@ define(['app'],function (app) {
           })
         }
       }
-      //注入位置服务，进行定位上班打卡，
+      //注入位置服务，进行定位上班打卡，服务的
+      $scope.post = function ( ) {
+        var p = positionService.getLowPosition()  ;
+        if(p.status){
+          console.log(p);
+        }
+
+      }
       // $scope.on('$destory',function () {
       //   $interval.cancel($scope,timer)
       // })
